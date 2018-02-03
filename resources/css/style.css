@@ -312,6 +312,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -348,13 +349,10 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
-}
-
-#quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -365,6 +363,10 @@ header .mobile {
 
 #quotes-section quote-citation {
   height: 1.875rem;
+}
+
+#quotes-section img {
+  padding-left: 2.5rem;
 }
 
 @media only screen and (max-width: 760px) {
