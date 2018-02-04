@@ -1,4 +1,4 @@
-/* Universal Styles */
+/* Universal Styles  760   e    450*/
 
 html {
   font-family: "Roboto", sans-serif;
@@ -240,16 +240,15 @@ header .mobile {
   margin: 0 auto;
 }
 
+.feature .content {
+  padding: 2.5rem 0;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
-  padding-top: 2.25rem;
-}
-
-#features-section .content {
-  height: 187px;
 }
 
 .feature h3 {
@@ -282,6 +281,12 @@ header .mobile {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
+  }
+
+
 }
 
 /* Filters Section */
