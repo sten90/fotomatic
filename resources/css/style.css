@@ -32,6 +32,7 @@ html {
 
 .image-container img {
   display: block;
+
 }
 
 @media only screen and (max-width: 760px) {
