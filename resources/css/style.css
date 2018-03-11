@@ -18,6 +18,12 @@ html {
   border-radius: 4px;
   background-color: #4a4a4a;
   color: white;
+  width: auto;
+  transition: 1s ease;
+}
+
+.button:hover {
+  background-color: hsl(147, 36%, 33%);
 }
 
 .image-container {
@@ -44,6 +50,10 @@ header {
   z-index: 100;
 }
 
+header a {
+  font-size: 25px;
+}
+
 header .content {
   display: flex;
   align-items: center;
@@ -65,8 +75,12 @@ nav li {
 nav a {
   vertical-align: bottom;
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #4a4a4a;
+}
+
+nav a:hover {
+  color: dodgerblue;
 }
 
 header .icon {
@@ -401,7 +415,11 @@ footer {
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
+  font-size: 0.75rem;
+}
+
+footer span {
+  font-size: 1rem;
 }
 
 footer .copyright {
